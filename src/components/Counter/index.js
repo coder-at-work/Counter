@@ -30,9 +30,9 @@ const Counter = () => {
             {loading ? <h1 className='loading'>Loading initial counter value...</h1> : <div>
                 <h1>Counter</h1>
                 <div className='counter'>
-                    <button onClick={upHandler}>+</button>
-                    <div className='counter-value'>{counter}</div>
                     <button onClick={downHandler}>-</button>
+                    <div className='counter-value'>{counter}</div>
+                    <button onClick={upHandler}>+</button>
                 </div>
             </div>
             }
